@@ -1,3 +1,4 @@
+require('./db/connection');
 const express = require("express");
 const app = express();
 const port = process.argv.PORT || 5000;

@@ -5,6 +5,6 @@ const movieRouter = Router();
 movieRouter.post('/movies', createMovie);
 movieRouter.get('/movies', listMovies);
 movieRouter.put('/movies', updateMovie);
-movieRouter.delete("/movies/username", deleteMovie);
+movieRouter.delete("/movies/:username", deleteMovie);
 
 module.exports = movieRouter;
